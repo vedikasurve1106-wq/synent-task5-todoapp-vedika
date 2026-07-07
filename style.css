@@ -75,6 +75,7 @@ body {
   cursor: pointer;
   transition: 0.2s;
   font-weight: 500;
+  letter-spacing: 0.5px;
 }
 
 .input-section button:hover {
@@ -97,6 +98,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 10px;
   transition: 0.2s;
 }
 
