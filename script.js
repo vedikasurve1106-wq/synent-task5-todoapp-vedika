@@ -68,3 +68,8 @@ function editTask(index) {
 
 // Load tasks when page opens
 renderTasks();
+document.getElementById("taskInput").addEventListener("keypress", function(event) {
+  if (event.key === "Enter") {
+    addTask();
+  }
+});
